@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input and Form</title>
+  </head>
+  <body>
+    <form action="backend.php">
+      <h2>This is HTML forms Tutorial</h2>
+      <label for="name"><b>Name:</b></label>
+
+      <div>
+        <input type="text" name="myName" id="name" />
+      </div>
+      <br />
+      <label for="roll"><b>Role:</b></label>
+      <div>
+        <input type="text" name="myRollNo" id="roll" />
+      </div>
+      <br />
+      <label for="email"><b>Email:</b></label>
+      <div>
+        <input type="email" name="myEmail" id="email" />
+      </div>
+      <br />
+      <label for="dob"> <b>DOB:</b></label>
+      <div>
+        <input type="date" name="Date of Birth" id="dob" />
+      </div>
+      <br />
+      <label for="rollno"><b>ROLL NO:</b></label>
+      <div>
+        <input type="number" name="Roll No" id="rollno" />
+      </div>
+      <br />
+      <label for="gender"><b>Gender:</b></label>
+      <div>
+        male<input type="radio" name="myGender" id="gender" /> Female<input
+          type="radio"
+          name="myGender"
+          id="gender"
+        />
+        Other<input type="radio" name="Other" id="gender" />
+      </div>
+      <br />
+      <label for="city">Choose your fav city in india : </label><br />
+      <div>
+        <select name="City" id="city">
+          <option>New Delhi</option>
+          <option>Indore</option>
+          <option>Jaipur</option>
+          <option>Jodhpur</option>
+          <option>Chandigarh</option>
+          <option>Mumbai</option>
+          <option>Bengaluru</option>
+          <option>Lucknow</option>
+          <option>Amritsar</option>
+        </select>
+      </div>
+      <br />
+      <label for="yourself"><b>TELL ABOUT YOURSELF :</b></label>
+      <div>
+        <textarea
+          name="Mytext"
+          id=""
+          cols="30"
+          rows="10"
+          itemid="yourself"
+        ></textarea>
+      </div>
+      <label for="check"><b>Are you eligible?:</b></label>
+      <div>
+        <input type="checkbox" name="myeligibility" id="check" />
+      </div>
+      <label for="save"></label>
+      <div>
+        <input type="submit" value="Submit Now" id="save" /><input
+          type="reset"
+          value="Reset Now"
+          id="save"
+        />
+      </div>
+      <br />
+      <div>
+        <!-- <input type="button" value="next"> -->
+      </div>
+    </form>
+  </body>
+</html>
