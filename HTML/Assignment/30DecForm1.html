@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <nav style="color:rgb(24, 129, 59);">
+       
+        <span ><image style="text-align:left;"  src ="https://geekster.in/images/logo.svg"></image> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span> <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   </span><span> <b>COURSES</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </span><span> <b>HIRE  GEEKSTER</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span> <b>BLOG</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span> <b>CONTACT US</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+       
+    </nav>
+  </head>
+  <body style="text-align: center">
+     
+    
+     <h1><b style="color: rgb(5, 141, 64);">Geekster </b><b>Admision Form</b></h1>
+    <form action="backend.php">
+      <b>first Name</b><i style="color: red">*</i> <br /><input
+        type="text"
+        name="First_Name"
+        placeholder="FirstName"
+        required
+      />
+      <br /><!--placeholder is what data is to be insert--><br />
+      <b>Last Name</b><i style="color: red">*</i><br /><input
+        type="text"
+        name="Last_name"
+        placeholder="LastName"
+        required
+      />
+      <br /><br />
+      <b>Email</b><i style="color: red">*</i><br /><input
+        type="email"
+        name="Email"
+        placeholder="asbshb@gmail.com"
+        required
+      /><br /><br />
+      
+      <b> Mobile Number <i style="color: red">*</i></b
+      ><br />
+      <select name="Country" id="abc">
+        <option value="01"> 🇮🇳 </option>
+        <option value="02">🇮🇩 </option>
+        <option value="03">🇺🇲 </option>
+        <option value="04">🇻🇮 </option>
+        <option value="05">🇬🇧 </option>
+        <option value="06">🇹🇭 </option>
+        <option value="07">🇨🇳 </option>
+        <option value="08">🇳🇨 </option>
+        <option value="09">🇦🇪  </option>
+        <option value="10">🇨🇦  </option>
+        <option value="11">🇵🇰  </option>
+        <option value="12">🇦🇫  </option>
+        <option value="13">🇦🇺 </option>  
+        <option value="14">🇿🇼  </option>
+        <option value="15">🇿🇦  </option>
+        <option value="16">🇰🇵  </option>
+        </select>
+      <input
+        type="number"
+        placeholder="Mobile Number"
+        required
+        minlength="9"
+        maxlength="10"
+      />
+      <br /><br />
+      <b>Date Of Birth</b> <br /><input type="date" name="DOB" /><br /><br />
+      <b>Password <i style="color: red;">*</i></b> <br /><input
+        type="password"
+        name="pwd"
+        placeholder="Enter Password"
+        required
+        minlength="8"
+        maxlength="20"
+      /><br /><br />
+      <b>City</b> <br />
+      <input
+        type="text"
+        name="city"
+        value="Bangluru"
+        value="Delhi"
+        placeholder="City"
+      /><br /><br />
+      <b> Gender</b> <br />
+      <input type="radio" name="gender" value="male" />male
+      <input type="radio" name="gender" value="female" />female
+      <input type="radio" name="gender" value="female" />other <br /><br />
+      <div></div>
+      <span>
+        <div>
+          <b>Highest Degree</b> <i style="color: red;">*</i> <br>
+          <select name="degree" id="d" required>
+            <option value="1">BE</option>
+            <option value="2">BTECH</option>
+            <option value="3">BCS</option>
+            <option value="4">BSA</option>
+            <option value="5">MTECH</option>
+            <option value="6">MCS</option>
+            <option value="7">MCA</option>
+          </select> <br>
+        </div> <br>
+        <div>
+          <span>
+            <div>
+             <b>Year Of Passing <i style="color: red;">*</i></b> <br> <select name="degree" id="d" required>
+                <option value="1">2015</option>
+                <option value="2">2016</option>
+                <option value="3">2017</option>
+                <option value="4">2018</option>
+                <option value="5">2019</option>
+                <option value="6">2020</option>
+                <option value="7">2021</option>
+                <option value="7">2022</option>
+              </select> <br>
+            </div> <br>
+          </span>
+          <span>
+            <div>
+            <b>Programming Skill</b> <i style="color: red;">*</i> <br><textarea name="" id="" cols="30" rows="10"  placeholder="If you don't have any programming experience mention NA" required></textarea>
+            </div>
+          </span>
+        </div> <br>
+      </span>
+      <input type="checkbox" required>By signing up, you agree to the Terms and Conditions of Geekster (QuantumBit technologies Pvt. Ltd)*. <br><br>
+      
+      
+      <input style="color: rgb(8, 138, 64);" type="submit" name="submit" />
+      <!-- <input type="range"> -->
+    </form>
+    <h4> All copyrights &copy; are reseved by Yogesh Rathod. </h4>
+  </body>
+</html>
