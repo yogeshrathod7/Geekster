@@ -1,0 +1,94 @@
+.navbar{
+    background-color:rgb(26, 0, 0);
+    border-radius: 13px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 13px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 7px;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: rgb(253, 251, 251);
+    border-radius: 10px;
+    
+    
+}
+.navbar li a:hover{
+    
+    color: rgb(30, 190, 97);
+    /* background-color: rgb(240, 230, 191); */
+    
+    
+    
+}
+.search{
+    float: right;
+    padding: 14px 30px;
+    color: white;
+    
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    font-size: 20px;
+    padding: 2px 17px;
+}
+.firsttable{
+    border: 2px solid rgb(124, 111, 111);
+    text-align: center;
+    line-height: 3px;
+    border-radius: 5px;
+    background-color:rgb(19, 18, 18);
+    width: 183px;
+    margin:20px 600px;
+    padding-top: 100px;
+    float: left;
+    
+    
+}
+
+
+button{
+    color: rgb(241, 231, 231);
+    background-color: rgb(29, 20, 20);
+    padding: 10px;
+    box-shadow: chartreuse;
+    border-right: 2px solid rgb(143, 51, 51);
+    height:40px;
+    width:40px;
+    border-radius: 5px;
+
+}
+button:hover{
+    background-color: rgb(105, 93, 93);
+}
+.firsttable input{
+    background-color:rgb(29, 20, 20);
+    border-radius: 5px;
+    height: 30px;
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(44, 1, 1);
+}
+.firsttable .eq{
+     height: 82px;
+}
+.bc{
+    background-color: rgb(19, 38, 46);
+}
+.bc:hover{
+    background-color: rgb(78, 197, 245);
+}
+.secondtable{
+    float: left;
+}
