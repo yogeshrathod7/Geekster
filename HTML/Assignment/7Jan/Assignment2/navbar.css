@@ -1,0 +1,111 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+  background-image: url("https://images.pexels.com/photos/1111597/pexels-photo-1111597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header {
+  height: 80px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(20, 17, 17);
+  align-items: center;
+}
+.mid {
+  display: flex;
+  width: 33%;
+  justify-content: space-around;
+  align-items: end;
+}
+.Navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+.Navbar a:hover,
+.Navbar a:active {
+  text-decoration: underline;
+  color: rgb(56, 49, 46);
+}
+#btn {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  border-radius: 7px;
+  background-color: rgb(19, 15, 15);
+  padding-bottom: 10px;
+}
+#btn:hover {
+  background-color: rgb(151, 96, 96);
+  color: red;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  color: white;
+
+  align-items: center;
+  font-size: 18px;
+}
+h2 {
+  display: inline-block;
+  position: relative;
+  top: 20px;
+}
+h4 {
+  display: inline-block;
+  position: relative;
+  bottom: 20px;
+}
+
+.container {
+  display: inline-block;
+  width: 500px;
+
+  margin: 100px 20px;
+  text-align: center;
+  padding: 87px 0px;
+  padding-bottom: 0px;
+  border-radius: 15px;
+  background-image: url("https://images.pexels.com/photos/2344614/pexels-photo-2344614.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.first {
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 150px solid rgb(49, 121, 131);
+  position: relative;
+  opacity: 0.8;
+}
+.second {
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 150px solid rgb(49, 121, 131);
+  position: relative;
+  bottom: 75px;
+  opacity: 0.6;
+}
+.third {
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 150px solid rgb(49, 121, 131);
+  position: relative;
+  bottom: 150px;
+  opacity: 0.4;
+}
