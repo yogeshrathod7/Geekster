@@ -1,0 +1,129 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  height: 200vh;
+}
+.header {
+  height: 80px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+.left {
+  width: 200px;
+  height: 80px;
+  margin: 10px;
+  margin-left: 15px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.first {
+  text-align: center;
+  margin-top: 13px;
+}
+.second {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 25px;
+  justify-content: center;
+}
+.right {
+  width: 35vw;
+  height: 80px;
+  margin: 10px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  float: right;
+  margin-right: 30px;
+}
+.ele-1 {
+  text-align: center;
+  font-size: 25px;
+}
+.ele-2 img {
+  height: 35px;
+}
+.ele-3 img {
+  height: 35px;
+}
+.ele-4 img {
+  height: 35px;
+}
+.ele-5 img {
+  height: 35px;
+}
+.ele-6 img {
+  height: 35px;
+  border-radius: 50%;
+}
+.container {
+  height: 600px;
+  width: 100vw;
+  display: flex;
+}
+.leftcontainer {
+  height: 400px;
+  width: 40vw;
+  margin: 70px 50px;
+  padding: 50px 30px;
+}
+.heading {
+  font-size: 2.75rem;
+}
+.paragraph {
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  color: #5f6368;
+  color: var(--gm-color-caption, #5f6368);
+  max-width: 30rem;
+  padding-bottom: 3em;
+  margin-top: 20px;
+}
+.joinmeet button {
+  background-color: rgb(49, 89, 219);
+  height: 48px;
+  width: 155px;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+}
+.joinmeet .link {
+  height: 45px;
+  width: 200px;
+  font-size: 16px;
+  margin-left: 30px;
+}
+hr {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 5px;
+}
+.rightcontainer {
+  height: 400px;
+  width: 40vw;
+  margin: 70px 50px;
+  padding: 50px 30px;
+}
+.containerimage {
+  text-align: center;
+}
+.contrightheading {
+  text-align: center;
+  font-size: 25px;
+}
+.contrighrpara {
+  text-align: center;
+  font-size: 16px;
+}
