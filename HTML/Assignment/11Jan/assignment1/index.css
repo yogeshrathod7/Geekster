@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    background-color: #312f2e;
+    width: 300px;
+    border: 0.5px solid black;
+    margin: auto;
+}
+.container h1{
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+}
+.container div{
+    margin-top: 10px;
+    color: #ffffff;
+}
+.alpha_heading{
+    background-color: #4b4646;
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    border-radius: 8px;
+    
+}
