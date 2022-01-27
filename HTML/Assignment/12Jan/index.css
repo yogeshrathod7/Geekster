@@ -1,0 +1,87 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background-image: linear-gradient(135deg, #abecd6 10%, #fbed96 100%);
+    border: 2px solid black;
+    margin: auto;
+    align-items: center;
+}
+.container h1{
+    text-align: center;
+    background-image: linear-gradient(to right,#db1507,#06c1da,#06da11);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+.image{
+    border: 2px solid green;
+    background: linear-gradient(to right,#d73838,#fff8dc);
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.image img{
+    width: 350px;
+    height:350px;
+    border-radius: 50%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+.btn{
+    margin: 5px 20px;
+    padding: 10px;
+    border:none;
+    background-image: linear-gradient(to right,#db1507,#06c1da,#06da11);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    cursor: pointer;
+}
+.btn i{
+    font-size: 2rem;
+    color: #790404be;
+    cursor: pointer;
+
+}
+.buttons span{
+    background-image: linear-gradient(to right,#ee190a,#06c1da,#06da11);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    font-weight: bold;
+}
+
+@media screen and (max-width:400px){
+    .image img{
+        height: 250px;
+        width: 250px;
+    }
+}
+@media screen and (max-width:300px){
+    .image img{
+        height: 200px;
+        width: 200px;
+    }
+}
+@media screen and (max-width:250px){
+    .image img{
+        height: 150px;
+        width: 150px;
+    }
+}
