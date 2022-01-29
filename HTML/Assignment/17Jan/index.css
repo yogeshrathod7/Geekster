@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+h1{
+    background-image: linear-gradient(to right,#db1507,#06c1da,#06da11);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
