@@ -1,0 +1,22 @@
+#container{
+    text-align: center;
+    background-image: linear-gradient(135deg, #A0FE65 10%, #FA016D 100%);
+    padding: 25px;
+}
+table{
+    width: 100vw;
+}
+tr {
+  padding: 20px;
+  background-image: linear-gradient(135deg, #F0FF00 10%, #58CFFB 100%);
+  text-align: center;
+  width: 50vw;
+}
+td {
+    border: 2px solid #610b0b;
+    padding: 10px;font-weight: bold;
+    font-size: 1.5rem;
+
+  }
+
+
