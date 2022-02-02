@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(135deg, #f5f7fa 10%, #c3cfe2 100%);
+}
+.container {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  border: 0.5px solid black;
+  width: 100vw;
+  height: auto;
+  background-color: white;
+  padding: 15px 0px;
+  position: sticky;
+  top: 0px;
+  z-index: 5;
+}
+#navbar #insta_logo {
+  margin-top: 5px;
+}
+#insta-search input {
+  font-size: 1.5rem;
+  background-color: #f3f1f1;
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+  margin-top: 3px;
+  padding: 4px;
+}
+#insta-icon {
+  display: flex;
+  justify-content: space-around;
+}
+#insta-icon .h-icon {
+  margin: 0px 10px;
+  text-align: center;
+  font-size: 1.75rem;
+}
+#insta-icon .h-icon img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  z-index: 1;
+  color: black;
+}
+
+.container {
+  /* border: 2px solid red; */
+  width: 80vw;
+  margin: 0px auto;
+}
+/* Stories */
+.stories {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border: 0.4px solid gray;
+  margin-top: 20px;
+  width: 50vw;
+  padding: 20px 5px;
+  overflow: auto;
+}
+.story-item {
+  /* padding: 2px;  */
+  margin: 5px;
+}
+.story-item .story-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.stories .story-item .story-image .item {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-image: linear-gradient(135deg, #C33764 10%, #1D2671 100%);
+  padding: 4px;
+  
+}
+
+.story-item .story-image::before {
+  content: "";
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  /* outline: 3px solid #ff7a00;
+  outline-offset: 3px;
+  border-radius: 50%; */
+  /* border: 3px solid transparent;
+  border-image: linear-gradient(to right, green, lightgreen);
+  border-image-slice: 1;
+  border-radius: 50%; */
+  /* background-image: linear-gradient(135deg, #C33764 10%, #1D2671 100%);
+  border-radius: 50%;
+  z-index: -1; */
+  border-radius: 50%;
+  outline: 2px solid white;
+   
+}
+
+/* aside section */
+
+.aside {
+  width: 28vw;
+  display: inline-block;
+  float: right;
+  /* border: 0.5px solid gray; */
+  position: fixed;
+  right: 132px;
+  top: 110px;
+  box-sizing: border-box;
+}
+.profile-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+.profile-info .image img {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+}
+.suggestion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5px 15px;
+}
+
+.suggested-people {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 5px 15px;
+}
+.s-image {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+.suggested-pinfo {
+  padding: 2px 7px;
+}
+.follow {
+  flex-grow: 2;
+  text-align: end;
+}
+.follow a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* post section  */
+
+.post1 {
+  width: 50vw;
+  /* border: 2px solid green; */
+  margin-top: 20px;
+  background-color: white;
+}
+.post1 .h-post {
+  width: 100%;
+  background-color: white;
+  border: 0.5px solid gray;
+  display: flex;
+  align-items: center;
+  padding: 10px 2px;
+}
+#p1-himg {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin: 2px 10px;
+  position: relative;
+}
+/* #p1-himg::before{
+  content: "";
+  position: absolute;
+  background-color: red;
+  width: 100%; 
+  height: 100%;
+  outline: 3px solid #ff7a00;
+  outline-offset: 3px; 
+
+} */
+.h-post h4 {
+  display: inline-block;
+  text-align: center;
+  margin: 0px 10px;
+}
+.h-post .more {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+.post1 img {
+  width: 100%;
+}
+.post1 .like-comm-send {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 2px;
+}
+.post1 .like-comm-send i {
+  margin: 0px 7px;
+  font-size: 1.5rem;
+  font-weight: 0.4rem;
+}
+.like-comm-send i:last-child {
+  flex-grow: 3;
+  text-align: end;
+}
+.like-count span {
+  font-weight: bold;
+}
+.like-count {
+  padding: 2px 10px;
+}
+.post1-comm {
+  padding: 2px 5px;
+}
+.comment {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px 2px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px solid gray;
+}
+.comment i {
+  font-size: 1.6rem;
+  font-weight: normal;
+  flex-grow: 1;
+  text-align: center;
+}
+.comment input {
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  flex-grow: 2;
+}
+.comment span {
+  color: #81cfda;
+  font-weight: bold;
+  text-align: end;
+  flex-grow: 5;
+  margin-right: 15px;
+}
+
+ 
+
+
