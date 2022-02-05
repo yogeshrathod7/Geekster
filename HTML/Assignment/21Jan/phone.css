@@ -1,0 +1,54 @@
+@media screen and (max-width:1100px) {
+    .aside{
+        display: none;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        
+    }
+    .stories{
+        width: 75vw;
+        padding: 2px;
+    }
+    .post{
+        width: 75vw;
+    }
+}
+@media screen and (max-width:700px) {
+     
+    .container{
+        background-color: red; 
+        width: 100vw;
+    }
+    .stories{
+        width: 90vw;
+    }
+    .post{
+        width: 90vw;
+    }
+    #insta-search input{
+        display: none;
+    }
+}
+@media screen and (max-width:700px) {
+    #navbar{
+        padding: 5px;
+        align-items: center;
+    }
+    #insta-icon {
+        justify-content: center;
+    }
+    #insta-icon .h-icon {
+        margin: 0px 5px;
+        text-align: center;
+        font-size: 1rem;
+      }
+      #insta-icon .h-icon img {
+        height: 20px;
+        width: 20px;
+      }
+}
