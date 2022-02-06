@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+    <title>Crud Operation</title>
+    <link type="text/css" rel="stylesheet" href="index.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/75d4b65358.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="navbar">
+        <div class="nav-item">
+            <img src="img/logo.png" alt="">
+        </div>
+         <div class="nav-item">
+             <ul>
+                 <li>Home</li>
+                 <li>About</li>
+                 <li>Services</li>
+                 <li>Contact Us</li>
+             </ul>
+         </div>
+        
+    </div>
+    <div id="welcome">
+        <h1>Welcome To My Blog</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sit repudiandae itaque velit temporibus, reiciendis, modi doloribus, rerum iusto consequatur nobis sapiente. Perferendis quidem consectetur neque sit excepturi esse, eos sunt quas ipsam alias vero necessitatibus nihil ratione nesciunt at. Dolor molestiae saepe ipsam veniam, hic eligendi distinctio inventore tenetur?</p>
+    </div>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <h1>Add Post</h1>
+                    <div>
+                        <label for="productCode">Product Code</label>
+                        <input type="text" name="productCode" id="productCode">
+                    </div>
+                    <div>
+                        <label for="product">Product Name</label>
+                        <input type="text" name="product" id="product">
+                    </div>
+                    <div>
+                        <label for="qty">Qty</label>
+                        <input type="number" name="qty" id="qty">
+                    </div>
+                    <div>
+                        <label for="perPrice">Price</label>
+                        <input type="number" name="perPrice" id="perPrice">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Product Code</th>
+                                <th>Product Name</th>
+                                <th>Qty</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <div id="client">
+        <h1>Our clients</h1>
+        <div id="client-item">
+            <img src="https://images.pexels.com/photos/218717/pexels-photo-218717.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            <img src="https://images.pexels.com/photos/34577/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            <img src="https://images.pexels.com/photos/4567339/pexels-photo-4567339.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            <img src="https://images.pexels.com/photos/818043/pexels-photo-818043.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            <img src="https://images.pexels.com/photos/7641857/pexels-photo-7641857.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+        </div>
+    </div>
+    <div id="footer">
+        
+        <div id="social-media">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>About the services and policies Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, consequatur.</p>
+        <h3>All copyrights &copy; are reserved by Nayak code & tech pvt.mtd</h3>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

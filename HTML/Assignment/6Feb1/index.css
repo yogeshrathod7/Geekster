@@ -1,0 +1,182 @@
+body{
+    /* background-image: url('https://images.pexels.com/photos/2098427/pexels-photo-2098427.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'); */
+    background-color: #373838;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* NAvbar  */
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid #eee; */
+    align-items: center;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background-image: linear-gradient(to right,rgb(122, 121, 121),rgb(17, 14, 14));
+    
+}
+.nav-item{
+     
+    margin: 2px 20px;
+}
+.nav-item img{
+    width: 100px;
+    height: 80px;
+    filter: invert(100%);
+}
+.nav-item ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 40vw;
+    color: #eee;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+ul li:hover{
+    color: #636464;
+}
+
+/* Welcome to my blog  */
+ 
+#welcome{
+    margin:40px auto;
+    width: 50vw;
+    position: relative;
+    background-image: linear-gradient(to right,rgb(122, 121, 121),rgb(17, 14, 14));
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgb(158, 157, 157);
+}
+#welcome h1{
+    text-align: center;
+    color: #eee;
+    font-family: 'Bree Serif', serif;
+}
+#welcome p{
+    text-align: center;
+    color: #eee;
+}
+
+/* Table  */
+table{
+    width: 80%;
+    margin: 100px auto;
+    background-image: linear-gradient(to right,rgb(122, 121, 121),rgb(17, 14, 14));
+    color: #eee;
+    font-size: 1.25rem;
+    box-shadow: 5px 5px 5px rgb(165, 164, 164);
+}
+    
+
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    border: 1px solid rgb(204,200,200);
+    text-align: left;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(204,200,200);
+}
+
+input[type="text"],input[type="number"]{
+    width:91%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: #5a5a5a;
+}
+
+input[type="reset"]:hover{
+    background: #666768;
+}
+
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background:#747575 ;
+}
+
+/* Client section  */
+#client{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #eee;
+    background-image: linear-gradient(to right,rgb(122, 121, 121),rgb(17, 14, 14));
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgb(165, 164, 164);
+    margin: 30px auto;
+    align-items: center;
+    justify-content: center;
+}
+#client-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#client-item img{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+/* footer  */
+
+#footer{
+    text-align: center;
+    margin: auto;
+    color: #eee;
+    background-image: linear-gradient(to right,rgb(122, 121, 121),rgb(17, 14, 14));
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgb(165, 164, 164);
+
+}
+#footer i{
+    font-size: 2rem;
+    margin: 5px;
+}
+#footer i:hover{
+    font-size: 1.8rem;
+    filter: invert(50%);
+    box-shadow: 2px 2px 2px rgb(165, 164, 164);
+}
